@@ -1,4 +1,4 @@
-namespace csharp.DayOne;
+namespace csharp;
 
 public class DayOne
 {
@@ -10,7 +10,7 @@ public class DayOne
 
         var partOne = PartOne(lists);
         Console.WriteLine($"Part One: {partOne}");
-        
+
         var partTwo = PartTwo(lists);
         Console.WriteLine($"Part Two: {partTwo}");
     }
@@ -67,7 +67,7 @@ public class DayOne
         var leftList = new List<int>();
         var rightList = new List<int>();
 
-        var path = Utilities.GetRelativePath("Data", "day_one.txt");
+        var path = Utilities.GetDayInput(1);
 
         foreach (var line in File.ReadAllLines(path))
         {

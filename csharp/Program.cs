@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using csharp.DayOne;
+using csharp;
 
 var dayOne = new DayOne();
 dayOne.Solve();
+
+Console.WriteLine();
+
+var dayTwo = new DayTwo();
+dayTwo.Solve();

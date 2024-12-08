@@ -8,11 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962ca721-d4e8-4852-aeeb-575ea5f31dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/csharp/Data/day_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csharp/DayTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csharp/DayThree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/DayThree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/DayThree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +37,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Project.csharp.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.csharp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;bh/day-3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733628422698</updated>
-      <workItem from="1733628423747" duration="24811000" />
+      <workItem from="1733628423747" duration="25705000" />
     </task>
     <servers />
   </component>
@@ -92,63 +89,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/csharp/DayThree.cs</url>
-          <line>46</line>
-          <properties documentPath="$PROJECT_DIR$/csharp/DayThree.cs" containingFunctionPresentation="Method 'AttemptParseMultiplier'">
-            <startOffsets>
-              <option value="1044" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1076" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/csharp/DayThree.cs</url>
-          <line>48</line>
-          <properties documentPath="$PROJECT_DIR$/csharp/DayThree.cs" containingFunctionPresentation="Method 'AttemptParseMultiplier'">
-            <startOffsets>
-              <option value="1099" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1144" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/csharp/DayThree.cs</url>
-          <line>57</line>
-          <properties documentPath="$PROJECT_DIR$/csharp/DayThree.cs" containingFunctionPresentation="Method 'AttemptParseMultiplier'">
-            <startOffsets>
-              <option value="1370" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1385" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/csharp/DayThree.cs</url>
-          <line>51</line>
-          <properties documentPath="$PROJECT_DIR$/csharp/DayThree.cs" containingFunctionPresentation="Method 'AttemptParseMultiplier'">
-            <startOffsets>
-              <option value="1244" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1271" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

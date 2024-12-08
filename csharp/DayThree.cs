@@ -15,7 +15,7 @@ public class DayThree
         Console.WriteLine("Day 3");
 
         var partOne = Part1();
-        Console.WriteLine($"Part 1: {partOne}");
+        Console.WriteLine($"Part One: {partOne}");
 
         var partTwo = Part2();
         Console.WriteLine($"Part Two: {partTwo}");
@@ -88,6 +88,46 @@ public class DayThree
 
     private int Part2()
     {
-        return 0;
+        StringReader sr = new(_input);
+
+        var sum = 0;
+        var ignoreNextMul = false;
+        int letter;
+        while ((letter = sr.Read()) > 0)
+            switch (letter)
+            {
+                case 'd':
+                    ignoreNextMul = ShouldIgnoreNextMul(sr);
+                    break;
+                case 'm':
+                {
+                    var nums = AttemptParseMultiplier(sr);
+                    if (nums == null) continue;
+
+                    if (ignoreNextMul) continue;
+
+                    sum += nums.Aggregate((x, y) => x * y);
+                    break;
+                }
+            }
+
+        return sum;
+    }
+
+    private static bool ShouldIgnoreNextMul(StringReader sr)
+    {
+        var expectedChars = new[] { 'o', 'n', '\'', 't' };
+        var expectedCharIndex = 0;
+
+        int letter;
+        while ((letter = sr.Read()) > 0 && expectedCharIndex < expectedChars.Length)
+        {
+            var expectedChar = expectedChars[expectedCharIndex];
+            if (letter != expectedChar) return false;
+
+            expectedCharIndex++;
+        }
+
+        return true;
     }
 }

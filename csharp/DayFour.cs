@@ -1,18 +1,18 @@
 namespace csharp;
 
-public class DayTemplate
+public class DayFour
 {
-    private readonly string _input;
+    private readonly List<string> Grid;
 
-    public DayTemplate()
+    public DayFour()
     {
         var path = Utilities.GetDayInput(4);
-        _input = ReadInput(path);
+        Grid = ReadInput(path);
     }
 
-    private static string ReadInput(string path)
+    private static List<string> ReadInput(string path)
     {
-        return "";
+        return File.ReadLines(path).ToList();
     }
 
     public void Solve()

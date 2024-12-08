@@ -9,3 +9,7 @@ Console.WriteLine();
 
 var dayTwo = new DayTwo();
 dayTwo.Solve();
+
+Console.WriteLine();
+var dayThree = new DayThree();
+dayThree.Solve();
